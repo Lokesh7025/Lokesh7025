@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="880" height="590" viewBox="0 0 880 590" role="img" aria-label="An agent session: someone asks who is lokesh, the agent loads a skill, calls the lokesh MCP server, spawns three subagents (one is still brewing coffee), sums up Agentic Resource Registry and the side projects, and finally asks permission to follow.">
+  <style>
+    text { font-family: "JetBrains Mono", "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; fill: #c0caf5; white-space: pre; }
+    .muted { fill: #565f89; } .blue { fill: #7aa2f7; } .green { fill: #9ece6a; } .purple { fill: #bb9af7; }
+    .orange { fill: #ff9e64; } .yellow { fill: #e0af68; } .cyan { fill: #7dcfff; } .bold { font-weight: 700; }
+
+    .in { animation: in .35s ease-out both; }
+    @keyframes in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+    .type1 { animation: type1 1s steps(16) both; }
+    .type2 { animation: type2 .9s steps(14) both; }
+    @keyframes type1 { from { transform: translateX(0); } to { transform: translateX(146px); } }
+    @keyframes type2 { from { transform: translateX(0); } to { transform: translateX(128px); } }
+    .caret { animation: off .01s linear both; }
+    @keyframes off { to { opacity: 0; } }
+
+    .sp { opacity: 0; animation: sp 1s steps(1) infinite; }
+    @keyframes sp { 0% { opacity: 1; } 25% { opacity: 0; } }
+
+    .think { animation: in .35s 7.1s ease-out both, off .2s 8.4s linear forwards; }
+    .blink { animation: in .35s 9.8s ease-out both, blink 1.1s 10.2s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .cover, .think, .sp2, .sp3, .sp4 { display: none; }
+      .sp1 { opacity: 1; }
+    }
+  </style>
+
+  <!-- window -->
+  <rect x="10" y="10" width="860" height="570" rx="12" fill="#1a1b26" stroke="#2a2c3d"/>
+  <path d="M22 10h836a12 12 0 0 1 12 12v24H10V22a12 12 0 0 1 12-12z" fill="#16161e"/>
+  <circle cx="34" cy="28" r="6" fill="#f7768e"/>
+  <circle cx="54" cy="28" r="6" fill="#e0af68"/>
+  <circle cx="74" cy="28" r="6" fill="#9ece6a"/>
+  <text x="440" y="33" text-anchor="middle" class="muted" style="font-size:12px">lokesh7025 · agent session · 88×24</text>
+
+  <!-- claude profile command -->
+  <text x="34" y="80"><tspan class="blue">~/Lokesh7025</tspan><tspan class="muted"> $</tspan></text>
+  <text x="164" y="80">claude --profile</text>
+  <g class="cover type1" style="animation-delay:.5s">
+    <rect x="162" y="64" width="160" height="22" fill="#1a1b26"/>
+    <rect class="caret" x="163" y="66" width="8" height="18" fill="#c0caf5" style="animation-delay:1.5s"/>
+  </g>
+
+  <!-- > who is lokesh? -->
+  <g class="in" style="animation-delay:1.8s">
+    <text x="34" y="112" class="muted">&gt;</text>
+    <text x="54" y="112" class="bold">who is lokesh?</text>
+    <g class="cover type2" style="animation-delay:2.1s">
+      <rect x="52" y="96" width="142" height="22" fill="#1a1b26"/>
+      <rect class="caret" x="53" y="98" width="8" height="18" fill="#c0caf5" style="animation-delay:3s"/>
+    </g>
+  </g>
+
+  <!-- skill -->
+  <g class="in" style="animation-delay:3.4s">
+    <text x="34" y="148"><tspan class="green">●</tspan> <tspan class="bold">Skill</tspan>(whoami)</text>
+  </g>
+  <g class="in" style="animation-delay:3.8s">
+    <text x="34" y="172" class="muted">  └ Loaded lokesh/SKILL.md · 1 human, ~40% caffeine by volume</text>
+  </g>
+
+  <!-- mcp -->
+  <g class="in" style="animation-delay:4.4s">
+    <text x="34" y="206"><tspan class="green">●</tspan> <tspan class="bold">lokesh - list_tools</tspan> <tspan class="muted">(MCP)</tspan></text>
+  </g>
+  <g class="in" style="animation-delay:4.8s">
+    <text x="34" y="230"><tspan class="muted">  └ </tspan><tspan class="cyan">ship_registry</tspan><tspan class="muted"> · </tspan><tspan class="cyan">level_up_irl</tspan><tspan class="muted"> · </tspan><tspan class="cyan">write_a_database</tspan><tspan class="muted"> · </tspan><tspan class="cyan">schedule_trains</tspan><tspan class="muted"> · </tspan><tspan class="cyan">debug_wsl_at_3am</tspan></text>
+  </g>
+
+  <!-- subagents -->
+  <g class="in" style="animation-delay:5.4s">
+    <text x="34" y="264"><tspan class="green">●</tspan> <tspan class="bold">Task</tspan>(spawn 3 subagents in parallel)</text>
+  </g>
+  <g class="in" style="animation-delay:5.8s">
+    <text x="34" y="288"><tspan class="muted">    ├─ </tspan><tspan class="purple">explorer </tspan> <tspan class="green">✓</tspan> grepped 12 repos: agents, a DB, a metro, an RPG</text>
+  </g>
+  <g class="in" style="animation-delay:6.2s">
+    <text x="34" y="312"><tspan class="muted">    ├─ </tspan><tspan class="purple">reviewer </tspan> <tspan class="green">✓</tspan> "LGTM" <tspan class="muted">(did not open the diff)</tspan></text>
+  </g>
+  <g class="in" style="animation-delay:6.6s">
+    <text x="34" y="336"><tspan class="muted">    └─ </tspan><tspan class="purple">barista  </tspan>    brewing… <tspan class="muted">(eta: unknown)</tspan></text>
+    <!-- spinner sits in the gap after "barista" -->
+    <text x="34" y="336" class="yellow sp sp1" style="animation-delay:0s">                 ◐</text>
+    <text x="34" y="336" class="yellow sp sp2" style="animation-delay:.25s">                 ◓</text>
+    <text x="34" y="336" class="yellow sp sp3" style="animation-delay:.5s">                 ◑</text>
+    <text x="34" y="336" class="yellow sp sp4" style="animation-delay:.75s">                 ◒</text>
+  </g>
+
+  <!-- thinking, then done -->
+  <text x="34" y="372" class="orange think">✻ Synthesizing… <tspan class="muted">(esc to interrupt · ↑ 2.4k tokens)</tspan></text>
+  <g class="in" style="animation-delay:8.5s">
+    <text x="34" y="372" class="orange">✻ <tspan class="muted">Cooked for 1.6s</tspan></text>
+  </g>
+
+  <!-- answer -->
+  <g class="in" style="animation-delay:8.9s">
+    <text x="34" y="404">● Lokesh works on <tspan class="blue bold">Agentic Resource Registry</tspan> (ex-Observal), a shared home for MCPs,</text>
+    <text x="34" y="428">  skills and agents. Side quests: a Go database, a metro scheduler, an IRL RPG.</text>
+  </g>
+
+  <!-- permission prompt -->
+  <g class="in" style="animation-delay:9.8s">
+    <rect x="34" y="448" width="812" height="112" rx="8" fill="none" stroke="#e0af68" stroke-opacity=".7"/>
+    <text x="54" y="476" class="bold">Do you want to follow @Lokesh7025?</text>
+    <text x="54" y="502" class="yellow">  1. Yes</text>
+    <text x="54" y="524">  2. Yes, and don't ask again for this human</text>
+    <text x="54" y="546">  3. No, and tell me what to do differently <tspan class="muted">(esc)</tspan></text>
+  </g>
+  <text x="54" y="502" class="yellow blink">❯</text>
+</svg>
