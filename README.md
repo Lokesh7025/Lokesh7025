@@ -47,13 +47,13 @@ not-for: centering a div on the first try
 
 <!-- tool-calls:start -->
 ```text
+Oct 30  ● git switch -c feat/remove-discover-nav      AgenticResourceRegistry
+Nov 01  ● gh pr create "docs(readme): retake UI s…"   AgenticResourceRegistry#2012
+Nov 01  ● gh pr create "feat(web): default the re…"   AgenticResourceRegistry#2011
+Oct 30  ● git switch -c pr-assets/remove-discover…    AgenticResourceRegistry
+Oct 30  ● git push origin main                        AgenticResourceRegistry
 Oct 30  ● gh pr create "refactor(web): remove the…"   AgenticResourceRegistry#2003
 Oct 26  ● git push origin feat/otel-claude-code-pro…  AgenticResourceRegistry
-Oct 26  ● git push origin fix/agent-pull-unsupporte…  AgenticResourceRegistry
-Oct 26  ● git push origin fix/agent-harness-capabil…  AgenticResourceRegistry
-Oct 26  ● git push origin refactor/otel-package       AgenticResourceRegistry
-Oct 26  ● gh issue create "Web UI and README show …"  AgenticResourceRegistry#1971
-Oct 23  ● gh pr create "fix(agent): drop harnesse…"   AgenticResourceRegistry#1970
 ```
 <!-- tool-calls:end -->
 
