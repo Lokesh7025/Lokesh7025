@@ -47,13 +47,13 @@ not-for: centering a div on the first try
 
 <!-- tool-calls:start -->
 ```text
+Nov 01  ● git push origin pr-assets-2013-review       AgenticResourceRegistry ×2
+Nov 01  ● git switch -c pr-assets-2013-review         AgenticResourceRegistry
+Nov 03  ● git push origin refactor/otel-package       AgenticResourceRegistry
 Nov 03  ● gh pr review --comment                      AgenticResourceRegistry#1783 ×2
 Nov 01  ● git switch -c feat/arr-default-branding     AgenticResourceRegistry
 Nov 03  ● gh issue comment                            AgenticResourceRegistry#1784
 Nov 01  ● git push origin update-architecture-diagr…  Observal
-Nov 01  ● git push origin pr-assets-2013-review       AgenticResourceRegistry ×2
-Nov 01  ● git push origin feat/ard-discovery-insigh…  Observal
-Nov 01  ● git switch -c feat/insights-condensed-r…    AgenticResourceRegistry
 ```
 <!-- tool-calls:end -->
 
