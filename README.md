@@ -47,13 +47,13 @@ not-for: centering a div on the first try
 
 <!-- tool-calls:start -->
 ```text
+Nov 07  ● gh pr create "fix(cli): send sessions t…"  AgenticResourceRegistry#2047
+Nov 07  ● gh pr create "fix(cli): managed skill f…"  AgenticResourceRegistry#2046
+Nov 06  ● git push origin feat/usage-ping-identity   AgenticResourceRegistry
+Nov 06  ● git switch -c feat/usage-ping-identity     AgenticResourceRegistry
+Nov 06  ● git switch -c pr-assets-usage-identity     AgenticResourceRegistry
 Nov 06  ● gh pr create "feat(usage-ping): add ide…"  AgenticResourceRegistry#2039
-Nov 01  ● git push origin pr-assets-2013-review      AgenticResourceRegistry ×2
-Nov 01  ● git switch -c pr-assets-2013-review        AgenticResourceRegistry
-Nov 03  ● git push origin refactor/otel-package      AgenticResourceRegistry
-Nov 03  ● gh pr review --comment                     AgenticResourceRegistry#1783 ×2
-Nov 01  ● git switch -c feat/arr-default-branding    AgenticResourceRegistry
-Nov 03  ● gh issue comment                           AgenticResourceRegistry#1784
+Nov 01  ● git push origin pr-assets-2013-review      AgenticResourceRegistry
 ```
 <!-- tool-calls:end -->
 
