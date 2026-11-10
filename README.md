@@ -47,7 +47,7 @@ not-for: centering a div on the first try
 
 <!-- tool-calls:start -->
 ```text
-Nov 09  ● gh pr review --comment                      AgenticResourceRegistry#2033
+Nov 09  ● gh pr review --comment                      AgenticResourceRegistry#2033 ×2
 Nov 09  ● gh pr review --comment                      AgenticResourceRegistry#2045
 Nov 07  ● git push origin fix/session-push-server-o…  AgenticResourceRegistry
 Nov 07  ● git push origin pr-assets-obs1517-1519      AgenticResourceRegistry
