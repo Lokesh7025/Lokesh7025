@@ -47,13 +47,13 @@ not-for: centering a div on the first try
 
 <!-- tool-calls:start -->
 ```text
+Nov 11  ● WebFetch(★ star)                            gnuradio
+Nov 11  ● Fork()                                      gnuradio
 Nov 09  ● gh pr review --comment                      AgenticResourceRegistry#2033 ×2
 Nov 09  ● gh pr review --comment                      AgenticResourceRegistry#2045
 Nov 07  ● git push origin fix/session-push-server-o…  AgenticResourceRegistry
 Nov 07  ● git push origin pr-assets-obs1517-1519      AgenticResourceRegistry
 Nov 07  ● git switch -c fix/session-push-server-o…    AgenticResourceRegistry
-Nov 07  ● git switch -c pr-assets-obs1517-1519        AgenticResourceRegistry
-Nov 07  ● git push origin feat/insights-condensed-r…  AgenticResourceRegistry
 ```
 <!-- tool-calls:end -->
 
