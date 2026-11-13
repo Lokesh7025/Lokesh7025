@@ -47,13 +47,13 @@ not-for: centering a div on the first try
 
 <!-- tool-calls:start -->
 ```text
+Nov 13  ● gh pr review --comment                     AgenticResourceRegistry#2204 ×9
+Nov 13  ● git switch -c feat/cli-auto-sync           AgenticResourceRegistry
+Nov 13  ● gh pr create "feat(cli): auto-sync CLI …"  AgenticResourceRegistry#2204
+Nov 12  ● git push origin fix/usage-ping-hardening   AgenticResourceRegistry
 Nov 12  ● gh pr create "fix(usage-ping): harden h…"  AgenticResourceRegistry#2200
 Nov 12  ● gh pr review --approve                     AgenticResourceRegistry#2197
 Nov 12  ● gh issue comment                           AgenticResourceRegistry#2178
-Nov 12  ● gh issue comment                           AgenticResourceRegistry#2181
-Nov 12  ● gh issue comment                           AgenticResourceRegistry#2179
-Nov 12  ● gh issue comment                           AgenticResourceRegistry#2182
-Nov 12  ● gh issue close "Add tooltips on harness…"  AgenticResourceRegistry#2158
 ```
 <!-- tool-calls:end -->
 
